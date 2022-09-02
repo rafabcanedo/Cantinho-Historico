@@ -1,0 +1,29 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+   
+body {
+ background-color: #F2D1B3;
+}
+
+.footer {
+ background-color: #EBEBEB;
+ color: black;
+ padding: 3em;
+ text-align: center;
+}
+
+.footer-nav {
+ display: flex;
+ jusify-content: center;
+ list-styles-type: none;
+}
+
+.footer_nav li {
+ margin: 0 1em;
+}
+
+.footer_nav li:hover {
+ cursor: pointer;
+}
