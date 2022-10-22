@@ -11,7 +11,7 @@ body {
  background-color: #F2D1B3;
 }
 /* Sou eu aqui*/
-  nav{
+  #nav{
     background-color: #EBEBEB;
     height:80px;
     width:100%;
@@ -25,7 +25,7 @@ body {
   padding: 0;
   
  }
- .nav-list li{
+ #nav-list li{
   letter-spacing: 3px;
   margin-left: 32px;
  }
@@ -56,7 +56,7 @@ body {
       text-decoration: underline;
     }
   
-    .checkbtn {
+    #checkbtn {
       font-size: 30px;
       color:black;       
       float:right;
@@ -77,7 +77,7 @@ body {
 }
  @media (max-width:600px){
  
- .nav-list {
+ #nav-list {
   display:block;
   background:#EBEBEB;
   position:absolute ;
@@ -106,10 +106,13 @@ body {
     padding-top: 50px;
     
   }
-  .checkbtn{
+  #checkbtn{
     display:block;
     }
-    .nav-list.active{
+    #nav-list{
+      display:none;
+    }
+    #nav.active #nav-list{
       display:block;
     }
   }
